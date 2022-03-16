@@ -1,4 +1,4 @@
-# Problem 009:
+# Problem 9:
 #     Special Pythagorean Triplet
 #
 # Description:
