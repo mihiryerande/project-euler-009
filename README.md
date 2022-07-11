@@ -1,10 +1,13 @@
-# Project Euler - Problem 9 - Special Pythagorean Triplet
-A Pythagorean triplet is a set of three natural numbers, `a < b < c`, for which,
+# Project Euler
 
-<img src="https://render.githubusercontent.com/render/math?math=a^2 %2b b^2 = c^2">
+## Problem 9 - Special Pythagorean Triplet
 
-For example, <img src="https://render.githubusercontent.com/render/math?math=3^2 %2b 4^2 = 9 %2b 16 = 25 = 5^2">
+A Pythagorean triplet is a set of three natural numbers, *a* < *b* < *c*, for which,
 
-There exists exactly one Pythagorean triplet for which <img src="https://render.githubusercontent.com/render/math?math=a %2b b %2b c = 1000">.
+$$a^2 + b^2 = c^2$$
 
-Find the product <img src="https://render.githubusercontent.com/render/math?math=abc">.
+For example, $3^2 + 4^2 = 9 + 16 = 25 = 5^2$.
+
+There exists exactly one Pythagorean triplet for which $a + b + c = 1000$.
+
+Find the product $abc$.
