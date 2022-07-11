@@ -12,9 +12,10 @@
 #     Find the product abc.
 
 from math import sqrt
+from typing import Tuple
 
 
-def main(n):
+def main(n: int) -> Tuple[Tuple[int, int, int], int]:
     """
     Returns a Pythagorean triplet summing to `n`, as well as its product.
 
@@ -22,7 +23,10 @@ def main(n):
         n (int): Natural number greater than 5
 
     Returns:
-        Pythagorean triplet summing to `n`, and the triplet's product.
+        (Tuple[Tuple[int, int, int], int]):
+            Tuple of ...
+              * Pythagorean triplet summing to `n`, as a 3-tuple
+              * Product of triplet
 
     Raises:
         AssertError: if incorrect params are given
@@ -33,10 +37,10 @@ def main(n):
         for b in range(a+1, (n-a)//2):
             c = n - a - b
             if sqrt(a**2 + b**2) == c:
-                t = [a, b, c]
+                t = (a, b, c)
                 p = a * b * c
                 return t, p
-    return [0, 0, 0], 0
+    return (0, 0, 0), 0
 
 
 if __name__ == '__main__':
